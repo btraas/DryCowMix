@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_calculated"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="me.supersimplelifts.drycowmix.CalculatedActivity">
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/tableLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <!-- 2 columns -->
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dip" >
+
+            <TextView
+                android:text="# Cows"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/numCowsVal"
+                android:text=""
+                android:paddingLeft="15dip"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </TableRow>
+
+        <!-- just draw a red line -->
+        <View
+            android:layout_height="2dip"
+            android:background="#000000" />
+
+        <!-- 2 columns -->
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dip" >
+
+            <TextView
+                android:text="Two Days Worth"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/twoDaysWorthVal"
+                android:text="####"
+                android:paddingLeft="15dip"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </TableRow>
+
+
+        <!-- 2 columns -->
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dip" >
+
+            <TextView
+                android:text="Corn Silage"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/cornSilageVal"
+                android:text="####"
+                android:paddingLeft="15dip"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </TableRow>
+
+
+        <!-- 2 columns -->
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dip" >
+
+            <TextView
+                android:text="Straw"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/strawVal"
+                android:text="####"
+                android:paddingLeft="15dip"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </TableRow>
+
+        <!-- 2 columns -->
+        <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dip" >
+
+            <TextView
+                android:text="Hay"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/hayVal"
+                android:text="####"
+                android:paddingLeft="15dip"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </TableRow>
+
+
+        <!-- 2 columns -->
+        <TableRow
+            android:id="@+id/tableRow6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dip" >
+
+            <TextView
+                android:text="High Moist Corn"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/highMoistCornVal"
+                android:text="####"
+                android:paddingLeft="15dip"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </TableRow>
+
+        <!-- 2 columns -->
+        <TableRow
+            android:id="@+id/tableRow7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dip" >
+
+            <TextView
+                android:text="Supplement"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/supplementVal"
+                android:text="####"
+                android:paddingLeft="15dip"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </TableRow>
+
+        <!-- 2 columns -->
+        <TableRow
+            android:id="@+id/tableRow8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dip" >
+
+            <TextView
+                android:text="Minerals"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/mineralsVal"
+                android:text="####"
+                android:paddingLeft="15dip"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </TableRow>
+
+
+        <!-- 2 columns -->
+        <TableRow
+            android:id="@+id/tableRow9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dip" >
+
+            <TextView
+                android:text="Mag. Sulphate"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/magSulphateVal"
+                android:text="####"
+                android:paddingLeft="15dip"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </TableRow>
+
+        <!-- 2 columns --><!--
+        <TableRow
+            android:id="@+id/tableRow10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dip" >
+
+            <TextView
+                android:text="Two Days Worth"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/twoDaysWorthVal2"
+                android:text="####"
+                android:paddingLeft="15dip"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </TableRow>
+        -->
+        <!-- just draw a red line -->
+        <View
+            android:layout_height="2dip"
+            android:background="#000000" />
+
+
+        <!-- 2 columns -->
+        <TableRow
+            android:id="@+id/tableRow11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dip" >
+
+            <TextView
+                android:text="Grand Total"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/grandTotalVal"
+                android:text="####"
+                android:paddingLeft="15dip"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </TableRow>
+
+
+    </TableLayout>
+
+
+</RelativeLayout>
